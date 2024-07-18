@@ -1,0 +1,111 @@
+/* Google Fonts ======================== */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Staatliches&display=swap');
+
+/* CSS Reset =========================== */
+body,
+nav,
+main,
+section,
+footer,
+article,
+form,
+button,
+textarea,
+button,
+input,
+h1,
+h2,
+h3,
+p,
+a,
+time,
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 100%;
+	text-decoration: none;
+	font-weight: normal;
+	color: inherit;
+	box-sizing: border-box;
+}
+
+/* Typography Defaults ================= */
+html {
+	font-size: 62.5%;
+}
+
+
+body {
+    background-image: url("images/skateboardatl-bg.png");
+    background-repeat: no-repeat;
+
+	background-color: #fff;
+	color: #000;
+	font: 1.4rem/1.6 'Open Sans', sans-serif;
+    padding: 48px 32px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Staatliches', cursive;
+}
+
+h1,
+h2 {
+	font-size: 2.5rem;
+}
+
+
+
+p{
+    font-size: 1.6rem;
+}
+
+
+.hero {
+    color: #fff;
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.logo-img{
+    width: 100%;
+    height: auto;
+    margin: 0 0 32px;
+}
+
+
+
+
+
+/* Larger font sizes for screens larger than 480px */
+@media (min-width: 481px) {
+    body{
+        padding: 48px 16px;
+    }
+    h1, h2 {
+        font-size: 5rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    .logo-img{
+        width: 100%;
+        height: auto;
+    }
+}
